@@ -1,0 +1,93 @@
+@font-face{
+	font-family: Open Sans;
+	src:url("Open_Sans/OpenSans-Light.ttf");
+}
+*{
+	margin: 0;
+	padding: 0;
+	border-radius: 0 !important;
+	font-family: Open Sans;
+	font-size: 18px;
+
+}
+@font-face{
+	font-family: Open Sans;
+	src:url("Open_Sans/OpenSans-Light.ttf");
+}
+/*xử lý menu*/
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	z-index: 1;
+	background-color: lightblue;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+	
+}
+
+/*list product*/
+.list-product-title{
+	width: 100%;
+	text-transform: uppercase;
+	margin-left: 5px;
+	margin-right: 5px;
+
+}
+.list-product-subtitle{
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/*product card*/
+.card-product{
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+	overflow: hidden;
+	position: relative;
+}
+.product-title{
+	margin-bottom: 0.25rem;
+}
+.card-text .product-price{
+	position: relative;
+}
+.del-price{
+	text-decoration: line-through;
+}
+.new-price{
+	color: #f90;
+	position: absolute;
+	right: 0.5rem;
+}
+.btn-add-to-cart{
+	background-color: #3a5c83 !important;
+	color: white !important;
+}
+.btn-add-to-cart:hover{
+	background-color: #f90 !important;
+}
+.btn-detail{
+	border: 1px solid #3a5c83 !important;
+}
+.btn-detail:hover{
+	color: white !important;
+	background-color: #3a5c83 !important;
+}
+.sale-sticky{
+	color: white;
+	background-color: #f90;
+	display: block;
+	text-align: center;
+	width: 120px;
+	position: absolute;
+	top: 11px;
+    right: -39px;
+	transform: rotate(45deg);
+}
